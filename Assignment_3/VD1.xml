@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="VD1.xsl" ?>
+
+<WEB>
+    <CONTENT1>
+        <PRODUCT>
+            <FROM>
+                Your Company
+            </FROM>
+            <TO>Client Name</TO>
+            <INVOICE_DES>Lorem ipsum dolor sit arnet, consectetur adipiscing elit. Fusce feugiat,
+                erat eu utlamcorper faucibus, dolor diam mollis massa, at ultrices risus ligula
+                eu ipsum.
+            </INVOICE_DES>
+        </PRODUCT>
+        <PRODUCT>
+            <FROM1>123 Main Street</FROM1>
+            <TO1>Address Line 1</TO1>
+        </PRODUCT>
+        <PRODUCT>
+            <FROM2>Anytown USA</FROM2>
+            <TO2>Address Line 2</TO2>
+        </PRODUCT>
+    </CONTENT1>
+    <CONTENT2>
+        <PRODUCT>
+            <ITEM>Website wireframe for 5 pages</ITEM>
+            <QUANTITY>10 hours</QUANTITY>
+            <UNIT_PRICE>$75</UNIT_PRICE>
+            <SUBTOTAL>$750</SUBTOTAL>
+        </PRODUCT>
+        <PRODUCT>
+            <ITEM1>Design and layout of 5 pages in Photoshop</ITEM1>
+            <QUANTITY1>20 hours</QUANTITY1>
+            <UNIT_PRICE1>$75</UNIT_PRICE1>
+            <SUBTOTAL1>$1500</SUBTOTAL1>
+        </PRODUCT>
+        <PRODUCT>
+            <ITEM2>Logo design</ITEM2>
+            <QUANTITY2>1</QUANTITY2>
+            <UNIT_PRICE2>$500</UNIT_PRICE2>
+            <SUBTOTAL2>$500</SUBTOTAL2>
+        </PRODUCT>
+        <PRODUCT>
+            <ITEM3>PSD to HTML coding</ITEM3>
+            <QUANTITY3>25 hours</QUANTITY3>
+            <UNIT_PRICE3>$100</UNIT_PRICE3>
+            <SUBTOTAL3>$2500</SUBTOTAL3>
+        </PRODUCT>
+        <PRODUCT>
+            <ITEM4>E-Commence development</ITEM4>
+            <QUANTITY4>10 hours</QUANTITY4>
+            <UNIT_PRICE4>$100</UNIT_PRICE4>
+            <SUBTOTAL4>$1000</SUBTOTAL4>
+        </PRODUCT>
+        <PRODUCT>
+
+            <UNIT_PRICE5>Total</UNIT_PRICE5>
+            <SUBTOTAL5>$6250</SUBTOTAL5>
+        </PRODUCT>
+    </CONTENT2>
+</WEB>
