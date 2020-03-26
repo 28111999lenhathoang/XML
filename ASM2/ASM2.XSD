@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="ORDER">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="CUSTOMER">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="FIRSTNAME" type="xsd:string"/>
+                             <xsd:element name="LASTNAME" type="xsd:string"/>
+                            <xsd:element name="TELEPHONE" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="GRAND_TOTAL" type="xsd:integer"/>
+                <xsd:element name="SHIPPING_ADDRESS" type="xsd:string"/>
+                <xsd:element name="ITEMS">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="PRODUCT" minOccurs="1" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="NAME" type="xsd:string"/>
+                                        <xsd:element name="PRICE" type="xsd:integer"/>
+                                        <xsd:element name="QTY" type="xsd:integer"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>

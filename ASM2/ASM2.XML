@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ORDER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="ASM2.XSD">
+    <CUSTOMER>
+        <FIRSTNAME>Tony</FIRSTNAME>
+        <LASTNAME>Stark</LASTNAME>
+        <TELEPHONE>0989988</TELEPHONE>
+    </CUSTOMER>
+    <GRAND_TOTAL>1833</GRAND_TOTAL>
+    <SHIPPING_ADDRESS>NO8. TON THAT THUYET</SHIPPING_ADDRESS>
+    <ITEMS>
+        <PRODUCT>
+            <NAME>KHoai lang nuong</NAME>
+            <PRICE>12</PRICE>
+            <QTY>1</QTY>
+        </PRODUCT>
+        <PRODUCT>
+            <NAME>Dau phong</NAME>
+            <PRICE>12</PRICE>
+            <QTY>1</QTY>
+        </PRODUCT>
+    </ITEMS>
+</ORDER>
